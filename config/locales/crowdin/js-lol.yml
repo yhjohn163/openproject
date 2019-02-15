@@ -486,12 +486,12 @@ lol:
       zooms: crwdns107672:0crwdne107672:0
       outlines: crwdns107674:0crwdne107674:0
     unsupported_browser:
-      title: crwdns114446:0crwdne114446:0
-      message: crwdns114448:0crwdne114448:0
-      update_message: crwdns114450:0crwdne114450:0
-      update_ie_user: crwdns114452:0crwdne114452:0
-      learn_more: crwdns114454:0crwdne114454:0
-      close_warning: crwdns114456:0crwdne114456:0
+      title: crwdns114686:0crwdne114686:0
+      message: crwdns114688:0crwdne114688:0
+      update_message: crwdns114690:0crwdne114690:0
+      update_ie_user: crwdns114692:0crwdne114692:0
+      learn_more: crwdns114694:0crwdne114694:0
+      close_warning: crwdns114696:0crwdne114696:0
     upsale:
       ee_only: crwdns107688:0crwdne107688:0
     wiki_formatting:
@@ -538,8 +538,8 @@ lol:
       label_filter_add: crwdns107760:0crwdne107760:0
       label_options: crwdns107762:0crwdne107762:0
       label_column_multiselect: crwdns107764:0crwdne107764:0
-      label_switch_to_single_select: crwdns114458:0crwdne114458:0
-      label_switch_to_multi_select: crwdns114460:0crwdne114460:0
+      label_switch_to_single_select: crwdns114698:0crwdne114698:0
+      label_switch_to_multi_select: crwdns114700:0crwdne114700:0
       message_error_during_bulk_delete: crwdns107770:0crwdne107770:0
       message_successful_bulk_delete: crwdns107772:0crwdne107772:0
       message_successful_show_in_fullscreen: crwdns107774:0crwdne107774:0

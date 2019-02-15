@@ -166,7 +166,7 @@ sk:
     label_author: 'Autor: %{user}'
     label_between: medzi
     label_board_locked: Uzamknuté
-    label_board_sticky: Sticky
+    label_board_sticky: Dôležité (vždy vyššie)
     label_create_work_package: Vytvoriť nový pracovný balíček
     label_created_by: Vytvoril(a)
     label_date: Dátum
@@ -516,7 +516,7 @@ sk:
         level3: Expand level 3
         level4: Expand level 4
         level5: Expand level 5
-        all: Show all
+        all: Zobraziť všetko
       project_status: Stav projektu
       really_close_dialog: Naozaj chcete zatvoriť dialógové okno a prísť o zadané
         údaje?
