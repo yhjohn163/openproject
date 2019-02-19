@@ -172,9 +172,9 @@ zh-TW:
       edit_query: 編輯表格
       query_group_placeholder: 給表格命名
       reset: 重設為預設值
-      type_color_text: |
-        Click to assign or change the color of this type. The selected color distinguishes work packages
-        in Gantt charts.
+      type_color_text: '點擊來指定或變更工作項目類型的顏色。被選取的顏色將在甘特圖中用來區別工作項目。
+
+'
   versions:
     overview:
       no_results_title_text: 目前沒有工作包分配給此版本。
@@ -188,10 +188,9 @@ zh-TW:
   work_packages:
     x_descendants:
       one: One descendant work package
-      other: "%{count} work package descendants"
+      other: "%{count} 個子工作項目"
     move:
-      no_common_statuses_exists: There is no status available for all selected work
-        packages. Their status cannot be changed.
+      no_common_statuses_exists: 被選取的工作項目沒有可用的狀態。他們的狀態不可以變更。
       unsupported_for_multiple_projects: 工作項目不支援從多個專案的大區塊的移動/複製
     list_simple:
       assigned:
@@ -339,7 +338,7 @@ zh-TW:
         type: 類型
       type:
         attribute_groups: ''
-        is_in_roadmap: Displayed in roadmap by default
+        is_in_roadmap: 在 RoadMap 預設為顯示
         is_default: 新專案的預設啟動類型
         is_milestone: 是里程碑
         color: 顏色
@@ -419,7 +418,7 @@ zh-TW:
         not_a_date: 不是有效的日期。
         not_a_datetime: 不是有效的日期時間。
         not_a_number: 不是數字
-        not_allowed: is invalid because of missing permissions.
+        not_allowed: 是無效的因為缺少權限
         not_an_integer: 不是整數
         not_an_iso_date: 不是有效日期。所需格式：YYYY-MM-DD。
         not_same_project: 不屬於相同的專案
@@ -438,8 +437,7 @@ zh-TW:
           only_one_allowed: "(%{name}) 只允許一個值。"
           empty: "(%{name}) 不可以為空值。"
           inclusion: "(%{name}) 沒有被設定為一個允許的值。"
-          not_logged_in: "(%{name}) value cannot be set because you are not logged
-            in."
+          not_logged_in: "(%{name}) 的值不可以被設定，因為你還沒有登入。"
           not_an_integer: "(%{name}) 不是一個整數。"
           smaller_than_or_equal_to: "(%{name}) 必須小於等於 %{count}。"
           greater_than_or_equal_to: "(%{name}) 必須大於等於 %{count}。"
@@ -497,8 +495,7 @@ zh-TW:
               status_transition_invalid: 無效，因為目前使用者的角色沒有從舊狀態到新狀態的有效過度狀態
               status_invalid_in_type: 無效, 因為此類型中不存在目前狀態。
             type:
-              cannot_be_milestone_due_to_children: cannot be a milestone because this
-                work package has children.
+              cannot_be_milestone_due_to_children: 不可以是 MileStone 因為這個工作項目有子項目。
             priority_id:
               only_active_priorities_allowed: 需要被啟用
             category:
@@ -511,7 +508,7 @@ zh-TW:
             attribute_groups:
               attribute_unknown: 使用了無效的工作包屬性。
               duplicate_group: 群組名稱 %{group} 已被使用，群組名稱不可重複。
-              query_invalid: 'The embedded query ''%{group}'' is invalid: %{details}'
+              query_invalid: '這個遷入的查詢 ''%{group}'' 是無效的: %{details}'
               group_without_name: 不允許未命名的群組。
         user:
           attributes:
@@ -612,7 +609,7 @@ zh-TW:
     password: 密碼
     priority: 優先等級
     project: 專案
-    responsible: Accountable
+    responsible: 可信賴的
     role: 角色
     roles: 角色
     start_date: 起始日期
@@ -908,8 +905,7 @@ zh-TW:
   enumeration_system_activity: 系統活動
   enumeration_reported_project_statuses: 報告的專案狀態
   error_auth_source_sso_failed: 單一登入 (SSO) 使用者 '%{value}' 失敗
-  error_can_not_archive_project: 'This project cannot be archived: There is at least
-    one work package assigned to a version defined in this project.'
+  error_can_not_archive_project: 這個專案不能被封存。至少有一個工作項目被指派至這個專案的某一個版本中。
   error_can_not_delete_entry: 無法刪除項目
   error_can_not_delete_custom_field: 無法刪除自訂欄位
   error_can_not_delete_type: 這個類型還有工作項目在使用，無法刪除。
@@ -927,12 +923,10 @@ zh-TW:
   error_invalid_group_by: 無法按照 %{value} 分組
   error_invalid_query_column: 無效的查詢欄：%{value}
   error_invalid_sort_criterion: 無法按照 %{value} 排序
-  error_journal_attribute_not_present: Journal does not contain attribute %{attribute}.
+  error_journal_attribute_not_present: Journal 不含有屬性 %{attribute}。
   error_pdf_export_too_many_columns: 為 PDF 匯出選擇的列太多。請減少列數。
-  error_pdf_failed_to_export: 'The PDF export could not be saved: %{error}'
-  error_token_authenticity: Unable to verify Cross-Site Request Forgery token. Did
-    you try to submit data on multiple browsers or tabs? Please close all tabs and
-    try again.
+  error_pdf_failed_to_export: '無法保存 pdf 匯出: %{error}'
+  error_token_authenticity: 無法驗證跨網域請求權杖。你是不是試圖在多個瀏覽器或者分頁上傳送資料？請關閉所有的分頁後再試一次。
   error_work_package_done_ratios_not_updated: 工作項目完成比例未更新
   error_work_package_not_found_in_project: 工作項目找不到或是不屬於這個專案
   error_must_be_project_member: 必須是專案的成員
@@ -973,8 +967,8 @@ zh-TW:
       csv: CSV
       pdf: PDF
       pdf_with_descriptions: 有說明的 PDF 檔
-      pdf_with_descriptions_and_attachments: PDF with descriptions and attachments
-      pdf_with_attachments: PDF with attachments
+      pdf_with_descriptions_and_attachments: 帶有說明和附件的 pdf
+      pdf_with_attachments: 帶有附件的 pdf
   extraction:
     available:
       pdftotext: Pdftotext 可用 (非必要)
@@ -1604,7 +1598,7 @@ zh-TW:
   macro_execution_error: 執行巨集 (%{macro_name}) 錯誤
   macro_unavailable: 巨集 "%{macro_name}" 無法顯示
   macros:
-    placeholder: "[Placeholder] Macro %{macro_name}"
+    placeholder: "[Placeholder] 巨集 %{macro_name}"
     errors:
       missing_or_invalid_parameter: 丟失或無效的宏參數。
     legacy_warning:
@@ -1790,7 +1784,7 @@ zh-TW:
   permission_move_work_packages: 移動工作項目
   permission_protect_wiki_pages: 專案維基頁面
   permission_rename_wiki_pages: 重新命名維基頁面
-  permission_save_queries: Save views
+  permission_save_queries: 保存視圖
   permission_select_project_modules: 選擇專案的模組
   permission_manage_types: 選擇類型
   permission_view_calendar: 檢視行事曆
@@ -2025,7 +2019,7 @@ zh-TW:
   setting_per_page_options: 每頁顯示項目個數的設置
   setting_plain_text_mail: 純文字郵件（不含 HTML）
   setting_protocol: Protocol
-  setting_security_badge_displayed: Display security badge
+  setting_security_badge_displayed: 顯示安全徽章
   setting_registration_footer: 註冊頁腳
   setting_repositories_automatic_managed_vendor: 自動版本控制類型
   setting_repositories_encodings: 儲存庫編碼
@@ -2146,7 +2140,7 @@ zh-TW:
   text_work_packages_ref_in_commit_messages: 在提交訊息中引用和修復工作項目
   text_journal_added: "%{label} %{value} 已增加"
   text_journal_aggregation_time_explanation: 合併日誌顯示，如果他們的建立時間差小於某固定時間。這也會減慢郵件通知相同時間。
-  text_journal_changed: "%{label} changed from %{old} <br/><strong>to</strong> %{new}"
+  text_journal_changed: "%{label} 從 %{old} <br/><strong>變成</strong> %{new}"
   text_journal_changed_plain: "%{label} 從 %{old} 改為 %{new}"
   text_journal_changed_no_detail: "%{label} 已更新"
   text_journal_changed_with_diff: "%{label} 已改變 (%{link})"
@@ -2166,11 +2160,8 @@ zh-TW:
     強烈建議先載入預設值，然後再修改它們。
   text_no_notes: 這個工作項目沒有評論
   text_notice_too_many_values_are_inperformant: '注意: 每頁顯示超過100個項目會增加頁面載入時間。'
-  text_notice_security_badge_displayed_html: 'Note: if enabled, this will display
-    a badge with your installation status in the <a href="%{information_panel_path}">%{information_panel_label}</a>
-    administration panel, and on the home page. It is displayed to administrators
-    only. The badge will run a check of your current OpenProject version against the
-    official OpenProject release database to alert you of any updates or known vulnerabilities.'
+  text_notice_security_badge_displayed_html: '注意: 如果啟用，系統會在 <a href="%{information_panel_path}">%{information_panel_label}</a>
+    管理者面板和首頁顯示一個徽章和安裝狀態。它只會顯示給管理者。這個徽章會執行檢查您目前的 OpenProject 版本和官方版本做比對，並且通知你任何相關的更新資訊。'
   text_own_membership_delete_confirmation: |-
     您將要刪除部分或全部權限, 之後可能無法再編輯此專案。
     是否要繼續？
@@ -2195,8 +2186,7 @@ zh-TW:
   text_user_invited: 這個使用者已經被邀請而且正在等待註冊。
   text_user_wrote: "%{value} 寫道："
   text_warn_on_leaving_unsaved: 若離開當前頁面，則此工作包內未儲存的內容將遺失。
-  text_what_did_you_change_click_to_add_comment: What did you change? Click to add
-    comment
+  text_what_did_you_change_click_to_add_comment: 你改變了甚麼？點擊來新增說明
   text_wiki_destroy_confirmation: 您是否確定要刪除此 wiki 和它所有的內容？
   text_wiki_page_destroy_children: 刪除子頁面和所有他們的派生頁面
   text_wiki_page_destroy_question: 此頁有 %{descendants} 子頁面和派生頁面。您想進行何種操作？

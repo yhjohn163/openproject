@@ -697,16 +697,16 @@ zh-TW:
         save: 儲存
         save_as: 另存為…
         export: 匯出...
-        visibility_settings: Visibility settings ...
-        page_settings: Rename view ...
+        visibility_settings: 可見度設定
+        page_settings: 重新命名視圖 ...
         delete: 删除
       filter: 篩選器
       unselected_title: 工作項目
-      search_query_label: Search saved views
-      search_query_title: Click to search saved views
-      placeholder_query_title: Set a title for this view
+      search_query_label: 搜索保存的視圖
+      search_query_title: 點擊搜尋保存的視圖
+      placeholder_query_title: 為此視圖設置標題
     modals:
-      label_settings: Rename view
+      label_settings: 重新命名視圖
       label_name: 名稱
       label_delete_page: 刪除目前的頁面
       button_apply: 套用
@@ -720,10 +720,8 @@ zh-TW:
         title: 確認刪除 %{label}
         text: 您確定要刪除以下 %{label}？
         has_children: '此工作項目包含 %{childUnits}:'
-        confirm_deletion_children: I acknowledge that ALL descendants of the listed
-          work packages will be recursively removed.
-        deletes_children: All child work packages and their descendants will also
-          be recursively deleted.
+        confirm_deletion_children: 我確認列出的工作項目的所有細項全部都將被刪除。
+        deletes_children: 所有子工作項目及其子項目也全部將被刪除。
     notice_successful_create: 建立成功
     notice_successful_delete: 刪除成功
     notice_successful_update: 更新成功
@@ -751,8 +749,7 @@ zh-TW:
     error_could_not_resolve_version_name: 無法解析版本名稱
     error_could_not_resolve_user_name: 無法解析使用者名稱
     error_attachment_upload: '檔 "%{name}" 未能上傳: %{error}'
-    error_attachment_upload_permission: You don't have the permission to upload files
-      on this resource.
+    error_attachment_upload_permission: 您沒有在此資源上載檔案的許可權。
     units:
       workPackage:
         one: work package

@@ -2255,7 +2255,7 @@ it:
   setting_per_page_options: Opzioni degli oggetti per pagina
   setting_plain_text_mail: Posta in formato testo semplice (no HTML)
   setting_protocol: Protocollo
-  setting_security_badge_displayed: Display security badge
+  setting_security_badge_displayed: Mostra badge di sicurezza
   setting_registration_footer: Piè di pagina registrazione
   setting_repositories_automatic_managed_vendor: Tipo automatico di gestore dell'archivio
     di progetto

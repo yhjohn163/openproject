@@ -511,11 +511,11 @@ sk:
       outline: Reset Outline
       outlines:
         aggregation: Show aggregations only
-        level1: Expand level 1
-        level2: Expand level 2
-        level3: Expand level 3
-        level4: Expand level 4
-        level5: Expand level 5
+        level1: Rozbaľte položky úrovne 1
+        level2: Rozbaľte položky do úrovne 2
+        level3: Rozbaľte položky do úrovne 3
+        level4: Rozbaľte položky do úrovne 4
+        level5: Rozbaľte položky do úrovne 5
         all: Zobraziť všetko
       project_status: Stav projektu
       really_close_dialog: Naozaj chcete zatvoriť dialógové okno a prísť o zadané
