@@ -508,9 +508,9 @@ sk:
         grouping_other: Ostatné
         noneSelection: "(žiadny)"
       name: Názov
-      outline: Reset Outline
+      outline: Obnoviť osnovu
       outlines:
-        aggregation: Show aggregations only
+        aggregation: Zobraziť iba vyznačené zoskupenia
         level1: Rozbaľte položky úrovne 1
         level2: Rozbaľte položky do úrovne 2
         level3: Rozbaľte položky do úrovne 3
