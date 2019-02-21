@@ -128,7 +128,7 @@
     "prebuild": "./scripts/link_plugin_placeholder.js",
     "build": "ng build --prod && npm run legacy-webpack",
     "preserve": "./scripts/link_plugin_placeholder.js",
-    "serve": "node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng serve",
+    "serve": "node --max_old_space_size=4096 --public-host http://localhost:4200 ./node_modules/@angular/cli/bin/ng serve",
     "pretest": "./scripts/link_plugin_placeholder.js",
     "test": "ng test --watch=false",
     "tslint_typechecks": "./node_modules/.bin/tslint -p . -c tslint_typechecks.json",
