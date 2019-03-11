@@ -325,8 +325,11 @@ class Query < ActiveRecord::Base
         column = sortable_columns
                  .detect { |candidate| candidate.name == attribute }
 
-        [column, direction]
+        if column
+          [column, direction]
+        end
       end
+      .compact
   end
 
   def sorted?
